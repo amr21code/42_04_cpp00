@@ -6,7 +6,7 @@
 /*   By: anruland <anruland@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/10 16:31:00 by anruland          #+#    #+#             */
-/*   Updated: 2022/07/12 18:46:55 by anruland         ###   ########.fr       */
+/*   Updated: 2022/07/13 15:04:40 by anruland         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,11 +22,19 @@ class PhoneBook {
 
 		PhoneBook(void);
 		~PhoneBook(void);
-		std::string getEntry(void) const;
+		std::string 	getEntry(int iInfo, int iEntry) const;
+		void		 	setEntry(int iInfo, std::string Input);
+		void			updiEntry(void);
+		int				getmEntryCnt(void) const;
+		void			incmEntryCnt(void);
+		int				getmiEntry(void) const;
+		void			incmiEntry(void);
 
 	private:
 
 		Contact pList[8];
+		int		mEntryCnt;
+		int		miEntry;
 };
 
 #endif

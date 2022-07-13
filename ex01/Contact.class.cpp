@@ -6,19 +6,19 @@
 /*   By: anruland <anruland@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/12 18:36:46 by anruland          #+#    #+#             */
-/*   Updated: 2022/07/12 18:51:57 by anruland         ###   ########.fr       */
+/*   Updated: 2022/07/13 14:27:09 by anruland         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Contact.class.hpp"
 
 Contact::Contact(void) {
-	std::cout << "Constructor" << std::endl;
+	// std::cout << "Constructor" << std::endl;
 	return;
 }
 
 Contact::~Contact(void) {
-	std::cout << "Destructor" << std::endl;
+	// std::cout << "Destructor" << std::endl;
 	return;
 }
 
