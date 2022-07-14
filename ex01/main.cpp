@@ -6,12 +6,13 @@
 /*   By: anruland <anruland@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/12 18:16:18 by anruland          #+#    #+#             */
-/*   Updated: 2022/07/13 16:13:39 by anruland         ###   ########.fr       */
+/*   Updated: 2022/07/14 12:26:33 by anruland         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "PhoneBook.class.hpp"
 #include "Contact.class.hpp"
+#include <cstdio>
 
 void	pbAdd(PhoneBook *pPhoneBook);
 void	pbSearch(PhoneBook *pPhoneBook);
@@ -26,7 +27,12 @@ int	main(void)
 	while (Input != "EXIT")
 	{
 		std::cout << "Enter Command: ";
-		getline(std::cin, Input);
+		std::getline(std::cin, Input);
+		if (std::cin.eof())
+		{
+			Input = "EXIT";
+			std::cout << std::endl;
+		} 
 		if (Input == "ADD")
 			pbAdd(&PhoneBook);
 		else if (Input == "SEARCH")
