@@ -6,14 +6,14 @@
 /*   By: anruland <anruland@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/11 13:49:42 by anruland          #+#    #+#             */
-/*   Updated: 2022/07/12 18:50:55 by anruland         ###   ########.fr       */
+/*   Updated: 2022/07/17 17:11:24 by anruland         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CONTACT_CLASS_HPP
-# define CONTACT_CLASS_HPP
-# include <string>
-# include <iostream>
+#define CONTACT_CLASS_HPP
+#include <string>
+#include <iostream>
 
 class Contact {
 

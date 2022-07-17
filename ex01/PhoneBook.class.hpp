@@ -6,15 +6,15 @@
 /*   By: anruland <anruland@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/10 16:31:00 by anruland          #+#    #+#             */
-/*   Updated: 2022/07/13 15:04:40 by anruland         ###   ########.fr       */
+/*   Updated: 2022/07/17 17:11:17 by anruland         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PHONEBOOK_CLASS_HPP
-# define PHONEBOOK_CLASS_HPP
-# include <string>
-# include <iostream>
-# include "Contact.class.hpp"
+#define PHONEBOOK_CLASS_HPP
+#include <string>
+#include <iostream>
+#include "Contact.class.hpp"
 
 class PhoneBook {
 
