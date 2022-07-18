@@ -6,7 +6,7 @@
 /*   By: anruland <anruland@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/14 13:21:59 by anruland          #+#    #+#             */
-/*   Updated: 2022/07/14 19:43:15 by anruland         ###   ########.fr       */
+/*   Updated: 2022/07/18 11:48:46 by anruland         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ Account::Account( int initial_deposit )
 	return ;
 }
 
-Account::Account()
+Account::Account(void)
 {
 	this->_accountIndex = _nbAccounts;
 	this->_amount = 0;
